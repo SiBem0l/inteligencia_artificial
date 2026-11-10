@@ -37,7 +37,7 @@ x_test = x_test.reshape(10000, 28, 28, 1)
 model = models.Sequential([
     # Primera capa convolucional
 
-    # filtros: 32
+    # filtros: 8
     # forma del filtro: 3x3
     # funcion de activacion: relu
     # forma de la entrada (solo para la primera capa): (28x28) pixeles x 1 canal 
